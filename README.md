@@ -1,6 +1,8 @@
 # heroke_sample
 
-## Build Setup
+## Sample Nuxt Project
+
+### Build Setup
 
 ```bash
 # install dependencies
@@ -18,3 +20,8 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+# History
+## 2021/2/19
+This repository start.
+
