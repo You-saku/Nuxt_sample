@@ -1,15 +1,27 @@
 <template>
-<div class="container">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap" rel="stylesheet">
+  <div class="container">
     <div>
-      <Header />
       <Logo />
       <h1 class="title">
-        Heroke_Sample
+        heroke_sample
       </h1>
       <div class="links">
-        <NuxtLink to="profile">Profile</NuxtLink>
+        <a
+          href="https://nuxtjs.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--green"
+        >
+          Documentation
+        </a>
+        <a
+          href="https://github.com/nuxt/nuxt.js"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--grey"
+        >
+          GitHub
+        </a>
       </div>
     </div>
   </div>
@@ -30,7 +42,16 @@ export default {}
 }
 
 .title {
-  font-family: 'Newsreader', serif;
+  font-family:
+    'Quicksand',
+    'Source Sans Pro',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
