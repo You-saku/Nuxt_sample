@@ -25,3 +25,5 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 ## 2021/2/19
 This repository start.
 
+## 2021/2/20
+Header, Footer created.
