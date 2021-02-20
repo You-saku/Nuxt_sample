@@ -1,34 +1,47 @@
 <template>
-  <div id="main">
-    <Header />
-    <Nav />
-    
-    <h1>Nuxt.js入門</h1>
-    <p>Vue.jsを触る傍らでNuxt.jsに興味を持ったのでこの際、何か作ってみようと思い、おなじみのプロフィールページを書いてみる</p>
-    ヘッダーにコンテンツを並べたのでご覧ください
-    <div id="icon">
-      <img src="@/assets/vue-js.png">
+    <div id= "main">
+        <Header />
+        <Nav />
+        <h1>マイプロフィール</h1>
+        <div id="topics">
+          <ol>
+            <li id="basic">
+            <h3>名前</h3>
+              <span class="value">You-saku</span>
+            <h3>出身</h3>
+              <span class="value">Gunmma</span>
+            <h3>性別</h3>
+              <span class="value">Man</span>
+            <h3>国籍</h3>
+              <span class="value">Japan</span>
+            </li>
+            <li id="basic">
+              <img src="@/assets/kapi.png">
+            </li>
+          </ol>
+        </div>
+        <Footer />
     </div>
-
-    <Footer />
-  </div>
 </template>
 
 <style scoped>
-  #main{
-    text-align: center;
-  }
+h1 {
+  text-align: center;
+}
 
-  h1{
-    text-align: center;
-    padding: 5px
-  }
+#topics {
+  text-align: center;
+}
 
-  h2, p{
-    text-align: center;
-  }
+#basic {
+  display: inline-block;
+  padding: 30px;
+}
 
-  #icon{
-    text-align: center;
-  }
+.value {
+  font-style: italic;
+  font-size: 17px;
+  margin: 50px;
+}
+
 </style>

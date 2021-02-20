@@ -8,8 +8,7 @@
 
 <style scoped>
   #main{
-    position: absolute;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
     padding: 10px;
 

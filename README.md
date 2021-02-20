@@ -26,4 +26,5 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 This repository start.
 
 ## 2021/2/20
-Header, Footer created.
+Header, Footer created.<br>
+npm and yarn are not symbiosis.

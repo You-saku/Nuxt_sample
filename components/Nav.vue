@@ -5,9 +5,10 @@
         Home
       </b-navbar-brand>
       <b-navbar-nav><!--薄いナビゲーションバー(カーソルでホップするよ)-->
-        <b-nav-item href="#">Profile</b-nav-item>
-        <b-nav-item href="#">Skills</b-nav-item>
-        <b-nav-item href="#">Hobby</b-nav-item>
+        <b-nav-item href="/Menu">Menu</b-nav-item>
+        <b-nav-item href="/Profile">Profile</b-nav-item>
+        <b-nav-item href="/Skills">Skills</b-nav-item>
+        <b-nav-item href="/Hobbies">Hobbies</b-nav-item>
         <b-nav-item href="https://jp.vuejs.org/v2/guide/index.html" target="_blank" rel="noopener noreferrer">Vue.js</b-nav-item>
         <b-nav-item href="https://ja.nuxtjs.org/" target="_blank" rel="noopener noreferrer">Nuxt.js</b-nav-item>
       </b-navbar-nav>

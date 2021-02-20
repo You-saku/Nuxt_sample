@@ -1,18 +1,22 @@
 <template>
-<div class="container">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap" rel="stylesheet">
-    <div>
-      <Header />
-      <Logo />
-      <h1 class="title">
-        Heroke_Sample
-      </h1>
-      <div class="links">
-        <NuxtLink to="profile">Profile</NuxtLink>
+<div>
+  <div class="container">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap" rel="stylesheet">
+      <div>
+        <Logo />
+        <h1 class="title">
+          Heroke_Sample
+        </h1>
+        <div class="links">
+          <NuxtLink to="Menu">
+            <button id="to_menu" type="submit">Munu</button>
+          </NuxtLink>
+        </div>
       </div>
-    </div>
   </div>
+  <Footer />
+</div>
 </template>
 
 <script>
@@ -20,9 +24,10 @@ export default {}
 </script>
 
 <style>
+
 .container {
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,5 +53,11 @@ export default {}
 
 .links {
   padding-top: 15px;
+}
+
+#to_menu {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #00fa9a;
 }
 </style>
