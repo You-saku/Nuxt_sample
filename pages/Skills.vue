@@ -3,6 +3,7 @@
   <Header />
   <Nav />
   <h1>スキルセット</h1>
+
   <Footer />
 </div>
 </template>
@@ -17,3 +18,22 @@
   }
 </style>
 
+<script>
+export default {
+  data(){
+    return{
+      programming: [
+
+      ],
+
+      languages: [
+
+      ],
+
+      others: [
+
+      ]
+    };
+  }
+}
+</script>
