@@ -3,39 +3,61 @@
         <Header />
         <Nav />
         <h1>マイプロフィール</h1>
+        <div id="intro">
+          <h2>基本情報</h2>
+          顔だしは恥ずかしいのでNGでおねがいします
+        </div>
         <div id="topics">
-          <ol>
-            <li id="basic">
-            <h3>名前</h3>
+          <ul>
+            <li>
+              名前
               <span class="value">You-saku</span>
-            <h3>出身</h3>
+            </li>
+            <li>
+              出身
               <span class="value">Gunmma</span>
-            <h3>性別</h3>
+            </li>
+            <li>
+              性別
               <span class="value">Man</span>
-            <h3>国籍</h3>
+            </li>
+            <li>
+              国籍
               <span class="value">Japan</span>
             </li>
-            <li id="basic">
+          </ul>
+          <div id="img">
               <img src="@/assets/kapi.png">
-            </li>
-          </ol>
+           </div>
         </div>
         <Footer />
     </div>
 </template>
 
 <style scoped>
+
+
 h1 {
   text-align: center;
 }
 
-#topics {
+#intro {
   text-align: center;
+  padding: 2%;
 }
 
-#basic {
-  display: inline-block;
-  padding: 30px;
+#topics {
+  display: flex;
+}
+
+ul {
+  position: relative;
+  left: 30%;
+}
+
+#img{
+  position: relative;
+  left: 35%;
 }
 
 .value {

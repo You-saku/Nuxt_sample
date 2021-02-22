@@ -10,7 +10,7 @@
         </h1>
         <div class="links">
           <NuxtLink to="Menu">
-            <button id="to_menu" type="submit">Munu</button>
+            <button id="to_menu" type="submit">Go to Munu</button>
           </NuxtLink>
         </div>
       </div>
@@ -27,7 +27,7 @@ export default {}
 
 .container {
   margin: 0 auto;
-  min-height: 50vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
