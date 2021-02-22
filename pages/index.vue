@@ -6,7 +6,7 @@
       <div>
         <Logo />
         <h1 class="title">
-          Heroke_Sample
+          Nuxt<br>Sample Page
         </h1>
         <div class="links">
           <NuxtLink to="Menu">
