@@ -1,4 +1,5 @@
 # heroke_sample
+URL : https://nuxtsampleys.herokuapp.com/
 
 ## Sample Nuxt Project
 
